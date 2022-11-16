@@ -1,10 +1,26 @@
+body {
+    background-color: #202020;
+}
+
 .header {
-    background-color: #2d2d2d;
+    background: transparent;
     width: 1920px;
-    height: 80px;
+    height: 90px;
     display: flex;
     justify-content: right;
     align-items: center;
+    position:absolute;
+    z-index: auto;
+}
+
+.black {
+    background-color: #323232;
+    width: 1920px;
+    height: 90px;
+    opacity: 70%;
+    filter: blur(50px);
+    position: absolute;
+    z-index: 0;
 }
 
 .header_div {
@@ -18,12 +34,23 @@
 .logo {
     margin-right: 40cm;
     width: 60px;
+    position: relative;
 }
 
 .logo_text {
     color: white;
     font-family: 'Manrope Bold', sans-serif;
-    padding-right: 41.3cm;
+    margin-right: 41.3cm;
     position: absolute;
     font-size:30px;
+}
+
+.secblock {
+    display:grid;
+}
+
+.secblock-tm {
+    color: #a5a5a5;
+    font-size: 16px;
+    font-family: 'Manrope Bold', sans-serif;
 }
