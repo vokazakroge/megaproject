@@ -1,0 +1,29 @@
+.header {
+    background-color: #2d2d2d;
+    width: 1920px;
+    height: 80px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.header_div {
+    text-decoration: none;
+    color: #DEDEDE;
+    font-family: 'Manrope Bold', sans-serif;
+    font-size: 18px;
+    padding-right: 80px;
+    margin-left: -35px;
+}
+.logo {
+    margin-right: 40cm;
+    width: 60px;
+}
+
+.logo_text {
+    color: white;
+    font-family: 'Manrope Bold', sans-serif;
+    padding-right: 41.3cm;
+    position: absolute;
+    font-size:30px;
+}
