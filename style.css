@@ -49,8 +49,34 @@ body {
     display:grid;
 }
 
-.secblock-tm {
-    color: #a5a5a5;
+.secblock-ts {
+    color: #DEDEDE;
     font-size: 16px;
     font-family: 'Manrope Bold', sans-serif;
+    margin-top: 150px;
+    margin-left: 70px;
+    letter-spacing: 1.5px;
+    opacity: 70%;
+    font-weight: 600;
+}
+
+.secblock-tm {
+    color: #DEDEDE;
+    font-family: 'Manrope Bold', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    opacity: 70%;
+    font-size: 16px;
+}
+
+
+.secblock-tb {
+    color: #DEDEDE;
+    font-family: 'Manrope Bold', sans-serif;
+    margin-left: 70px;
+    margin-top: 10px;
+    font-size: 32px;
+    letter-spacing: -0.5px;
+    line-height: 48px;
+    font-weight: 600
 }
